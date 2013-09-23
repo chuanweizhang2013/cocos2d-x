@@ -1,0 +1,3149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="wxWidgets">
+      <UniqueIdentifier>{a275d152-f182-4370-a1fa-027160746de1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wxWidgets\include\msvc\wx\setup.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aboutdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\accel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\access.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\affinematrix2d.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\affinematrix2dbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\afterstd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\android\chkconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\android\config_android.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\android\setup.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\anidecod.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\animate.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\animdecod.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\any.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\anybutton.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\anystr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\app.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\apptrait.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\archive.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\arrstr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\artprov.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\atomic.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aui\aui.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aui\auibar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aui\auibook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aui\dockart.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aui\floatpane.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aui\framemanager.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aui\tabart.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aui\tabartgtk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\aui\tabmdi.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\bannerwindow.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\base64.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\beforestd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\bitmap.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\bmpbuttn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\bmpcbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\bookctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\brush.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\buffer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\build.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\busyinfo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\button.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\calctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\caret.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\chartype.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\checkbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\checkeddelete.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\checklst.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\chkconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\choicdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\choice.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\choicebk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\clipbrd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\clntdata.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\clrpicker.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\cmdargs.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\cmdline.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\cmdproc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\cmndata.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\collpane.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\colordlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\colour.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\colourdata.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\combo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\combobox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\commandlinkbutton.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\compiler.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\compositewin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\confbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\config.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\containr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\control.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\convauto.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\cpp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\cppunit.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\crt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\cshelp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ctrlsub.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\cursor.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\custombgwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dataobj.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dataview.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\datectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dateevt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\datetime.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\datetimectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\datstrm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dcbuffer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dcclient.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dcgraph.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dcmemory.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dcmirror.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dcprint.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dcps.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dcscreen.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dcsvg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dde.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\debug.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\debugrpt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\defs.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dialog.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dialup.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dir.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dirctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dirdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\display.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\display_impl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dlimpexp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dlist.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dnd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\docmdi.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\docview.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dragimag.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dvrenderers.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dynarray.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dynlib.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\dynload.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\editlbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\effects.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\encconv.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\encinfo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\event.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\eventfilter.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\evtloop.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\evtloopsrc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\except.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fdrepdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\features.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ffile.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\file.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fileconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\filectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\filedlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\filefn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\filehistory.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\filename.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\filepicker.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\filesys.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\flags.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fmappriv.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\font.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fontdata.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fontdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fontenc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fontenum.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fontmap.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fontpicker.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fontutil.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\frame.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fswatcher.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fs_arc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fs_filter.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fs_inet.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fs_mem.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\fs_zip.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\gauge.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\gbsizer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\gdicmn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\gdiobj.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\aboutdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\accel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\animate.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\bmpcbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\busyinfo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\buttonbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\calctrlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\caret.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\choicdgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\clrpickerg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\collpaneg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\colour.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\colrdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\combo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\ctrlsub.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\custombgwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\dataview.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\datectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\dcpsg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\dirctrlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\dirdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\dragimgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\dvrenderer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\dvrenderers.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\fdrepdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\filectrlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\filedlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\filepickerg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\fontdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\fontpickerg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\fswatcher.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\grid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\gridctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\grideditors.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\gridsel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\headerctrlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\helpext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\hyperlink.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\icon.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\imaglist.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\infobar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\laywin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\listctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\logg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\mask.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\mdig.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\msgdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\notebook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\notifmsg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\numdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\paletteg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\panelg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\printps.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\private\grid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\private\listctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\private\markuptext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\private\richtooltip.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\private\textmeasure.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\private\timer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\prntdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\progdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\propdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\region.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\richmsgdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\sashwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\scrolwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\spinctlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\splash.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\splitter.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\srchctlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\statbmpg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\statline.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\stattextg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\statusbr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\tabg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\textdlgg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\timectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\treectlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\generic\wizard.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\geometry.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\gifdecod.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\glcanvas.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\graphics.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\grid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\hash.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\hashmap.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\hashset.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\headercol.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\headerctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\help.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\helpbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\helphtml.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\helpwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\forcelnk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\helpctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\helpdata.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\helpdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\helpfrm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\helpwnd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\htmlcell.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\htmldefs.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\htmlfilt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\htmlpars.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\htmlproc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\htmltag.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\htmlwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\htmprint.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\m_templ.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\styleparams.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\webkit.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\html\winpars.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\htmllbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\hyperlink.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\icon.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\iconbndl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\iconloc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imagbmp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\image.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imaggif.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imagiff.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imagjpeg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imaglist.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imagpcx.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imagpng.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imagpnm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imagtga.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imagtiff.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\imagxpm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\infobar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\init.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\intl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\iosfwrap.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ioswrap.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ipc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ipcbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\itemid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\joystick.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\kbdstate.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\language.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\layout.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\laywin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\link.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\list.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\listbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\listbook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\listbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\listctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\log.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\longlong.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\math.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\matrix.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\mdi.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\mediactrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\memconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\memory.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\memtext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\menu.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\menuitem.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\meta\convertible.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\meta\if.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\meta\implicitconversion.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\meta\int2type.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\meta\movable.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\meta\pod.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\meta\removeref.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\metafile.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\mimetype.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\minifram.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\modalhook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\module.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\mousemanager.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\mousestate.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msgdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msgout.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msgqueue.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\mstream.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\accel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\anybutton.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\app.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\apptbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\apptrait.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\bitmap.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\bmpbuttn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\bmpcbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\brush.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\button.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\calctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\caret.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\checkbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\checklst.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\chkconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\choice.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\clipbrd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\colordlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\colour.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\combo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\combobox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\commandlinkbutton.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\control.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\crashrpt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ctrlsub.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\cursor.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\custombgwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\datectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\datetimectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dcclient.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dcmemory.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dcprint.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dcscreen.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dde.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\debughlp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dialog.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dib.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dirdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\dragimag.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\enhmeta.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\evtloop.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\evtloopconsole.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\fdrepdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\filedlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\font.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\fontdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\frame.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\fswatcher.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\gauge.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\gccpriv.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\gdiimage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\genrcdefs.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\glcanvas.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\headerctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\helpbest.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\helpchm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\helpwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\htmlhelp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\hyperlink.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\icon.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\imaglist.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\iniconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\init.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\joystick.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\libraries.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\listbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\listctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\mdi.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\menu.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\menuitem.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\metafile.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\microwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\mimetype.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\minifram.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\missing.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\msgdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\mslu.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\msvcrt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\nonownedwnd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\notebook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\notifmsg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\access.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\activex.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\automtn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\dataform.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\dataobj.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\dataobj2.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\dropsrc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\droptgt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\oleutils.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\safearray.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ole\uuid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\ownerdrw.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\palette.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\panel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\pen.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\popupwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\printdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\printwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\button.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\comptr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\datecontrols.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\dc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\fswatcher.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\hiddenwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\keyboard.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\metrics.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\msgdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\pipestream.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\sockmsw.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\textmeasure.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private\timer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\private.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\progdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\radiobox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\radiobut.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\rcdefs.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\regconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\region.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\registry.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\richmsgdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\scrolbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\seh.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\setup.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\setup0.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\setup_inc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\slider.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\sound.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\spinbutt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\spinctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\stackwalk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\statbmp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\statbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\statline.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\stattext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\statusbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\stdpaths.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\subwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\taskbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\textctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\textentry.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\tglbtn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\timectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\tls.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\toolbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\tooltip.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\toplevel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\treectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\uxtheme.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\uxthemep.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\webviewhistoryitem_ie.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\webview_ie.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\webview_missing.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\checklst.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\chkconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\choicece.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\helpwce.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\libraries.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\missing.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\net.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\resources.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\setup.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\tbarwce.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\textctrlce.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wince\time.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\window.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\winundef.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wrapcctl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wrapcdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wrapgdip.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wrapshl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\msw\wrapwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\nativewin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\nonownedwnd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\notebook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\notifmsg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\numdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\numformatter.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\object.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\odcombo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\accel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\anybutton.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\app.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\bitmap.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\bmpbuttn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\brush.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\button.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\chkconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\dataview.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\drawer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\evtloop.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\mimetype.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\private\mactext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\private\overlay.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\private\print.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\private\timer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\private.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\region.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\statbmp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\carbon\uma.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\checkbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\checklst.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\chkconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\choice.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\clipbrd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\colordlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\colour.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\combobox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\config_xcode.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\control.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\cfdataref.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\cfref.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\cfstring.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\colour.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\dataview.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\evtloop.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\hid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\joystick.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\mimetype.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\objcid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\private\datetimectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\private\strconv_cf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\private\timer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\private.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\core\stdpaths.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\cursor.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dataform.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dataobj.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dataobj2.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dataview.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\datectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\datetimectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dcclient.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dcmemory.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dcprint.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dcscreen.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dialog.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dirdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dnd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dvrenderer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\dvrenderers.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\evtloop.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\evtloopsrc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\filedlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\font.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\fontdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\frame.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\gauge.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\glcanvas.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\helpxxxx.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\icon.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\imaglist.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\iphone\chkconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\iphone\private\textimpl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\iphone\private.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\joystick.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\listbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\listctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\mdi.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\menu.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\menuitem.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\metafile.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\mimetype.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\minifram.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\msgdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\nonownedwnd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\notebook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\palette.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\pen.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\pnghand.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\pngread.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\popupwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\printdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\printmac.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\private\glgrab.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\private\print.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\private\timer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\private.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\radiobox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\radiobut.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\region.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\scrolbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\setup0.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\slider.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\sound.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\spinbutt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\srchctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\statbmp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\statbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\statline.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\stattext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\statusbr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\taskbarosx.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\textctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\textentry.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\tglbtn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\timectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\toolbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\tooltip.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\toplevel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\treectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\uma.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\webviewhistoryitem_webkit.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\webview_webkit.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\osx\window.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\overlay.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ownerdrw.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\palette.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\panel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\paper.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\pen.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\persist\bookctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\persist\splitter.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\persist\toplevel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\persist\treebook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\persist\window.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\persist.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\pickerbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\platform.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\platinfo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\popupwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\position.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\power.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\preferences.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\print.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\printdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\eventloopsourcesmanager.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\fd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\fdiodispatcher.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\fdioeventloopsourcehandler.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\fdiohandler.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\fdiomanager.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\fileback.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\filename.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\flagscheck.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\fontmgr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\fswatcher.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\graphics.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\markupparser.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\markupparserattr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\overlay.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\pipestream.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\preferences.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\richtooltip.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\sckaddr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\selectdispatcher.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\socket.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\streamtempinput.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\textmeasure.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\threadinfo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\timer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\window.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\private\wxprintf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\prntbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\process.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\progdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propgrid\advprops.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propgrid\editors.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propgrid\manager.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propgrid\property.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propgrid\propgrid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propgrid\propgriddefs.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propgrid\propgridiface.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propgrid\propgridpagestate.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\propgrid\props.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\protocol\file.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\protocol\ftp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\protocol\http.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\protocol\log.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\protocol\protocol.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ptr_scpd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ptr_shrd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\quantize.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\radiobox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\radiobut.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\range.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\rawbmp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\rearrangectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\recguard.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\regex.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\region.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\renderer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ribbon\art.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ribbon\art_internal.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ribbon\bar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ribbon\buttonbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ribbon\control.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ribbon\gallery.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ribbon\page.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ribbon\panel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ribbon\toolbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richmsgdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextbackgroundpage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextborderspage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextbuffer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextbulletspage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextdialogpage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextfontpage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextformatdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtexthtml.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextimagedlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextindentspage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextliststylepage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextmarginspage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextprint.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextsizepage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextstyledlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextstylepage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextstyles.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextsymboldlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtexttabspage.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextuicustomization.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtext\richtextxml.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\richtooltip.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\rtti.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\sashwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\sckaddr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\sckipc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\sckstrm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\scopedarray.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\scopedptr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\scopeguard.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\scrolbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\scrolwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\selstore.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\settings.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\setup_inc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\setup_redirect.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\sharedptr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\simplebook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\sizer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\slider.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\snglinst.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\socket.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\sound.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\spinbutt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\spinctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\splash.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\splitter.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\srchctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\sstream.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stack.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stackwalk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\statbmp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\statbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\statline.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stattext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\statusbr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stc\private.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stc\stc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stdpaths.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stdstream.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stockitem.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stopwatch.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\strconv.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stream.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\string.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stringimpl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\stringops.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\strvararg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\sysopt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\tarstrm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\taskbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\tbarbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\testing.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\textbuf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\textcompleter.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\textctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\textdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\textentry.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\textfile.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\textwrapper.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\tglbtn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\thread.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\time.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\timectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\timer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\tipdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\tipwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\tls.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\tokenzr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\toolbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\toolbook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\tooltip.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\toplevel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\tracker.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\translation.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\treebase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\treebook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\treectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\treelist.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\txtstrm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\typeinfo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\types.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\uiaction.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unichar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\anybutton.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\app.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\bmpbuttn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\button.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\checkbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\checklst.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\chkconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\choice.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\colschem.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\combobox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\control.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\custombgwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\dialog.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\frame.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\gauge.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\inpcons.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\inphand.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\listbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\menu.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\menuitem.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\notebook.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\panel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\radiobox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\radiobut.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\renderer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\scrarrow.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\scrolbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\scrthumb.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\scrtimer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\setup.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\setup0.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\setup_inc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\slider.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\spinbutt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\statbmp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\statbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\statline.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\stattext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\statusbr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\stdrend.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\textctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\tglbtn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\theme.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\toolbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\toplevel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\univ\window.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\app.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\apptbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\apptrait.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\chkconf.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\evtloop.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\evtloopsrc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\execute.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\fontutil.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\fswatcher_inotify.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\fswatcher_kqueue.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\glx11.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\joystick.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\mimetype.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\pipe.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private\epolldispatcher.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private\executeiohandler.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private\fdiounix.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private\fswatcher_inotify.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private\fswatcher_kqueue.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private\pipestream.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private\sockunix.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private\timer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private\wakeuppipe.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\private.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\sound.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\stackwalk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\stdpaths.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\taskbarx11.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\tls.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\unix\utilsx11.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\uri.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\url.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\ustring.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\utils.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\valgen.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\validate.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\valnum.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\valtext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\variant.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\variantbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\vector.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\version.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\versioninfo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\vidmode.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\vlbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\vms_x_fix.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\volume.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\vscroll.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\weakref.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\webview.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\webviewarchivehandler.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\webviewfshandler.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wfstream.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\window.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\windowid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\withimages.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wizard.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wrapsizer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wupdlock.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wx.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wxchar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wxcrt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wxcrtbase.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wxcrtvararg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wxhtml.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\wxprec.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xlocale.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xml\xml.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xpmdecod.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xpmhand.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_all.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_animatctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_auinotbk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_bannerwindow.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_bmp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_bmpbt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_bmpcbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_bttn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_cald.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_chckb.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_chckl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_choic.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_choicbk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_clrpicker.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_cmdlinkbn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_collpane.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_combo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_comboctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_datectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_dirpicker.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_dlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_editlbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_filectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_filepicker.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_fontpicker.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_frame.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_gauge.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_gdctl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_grid.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_html.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_htmllbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_hyperlink.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_listb.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_listbk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_listc.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_mdi.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_menu.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_notbk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_odcombo.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_panel.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_propdlg.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_radbt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_radbx.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_ribbon.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_richtext.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_scrol.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_scwin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_sizer.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_slidr.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_spin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_split.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_srchctrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_statbar.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_stbmp.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_stbox.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_stlin.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_sttxt.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_text.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_tglbtn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_timectrl.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_toolb.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_toolbk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_tree.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_treebk.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_unkwn.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xh_wizrd.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xmlres.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xrc\xmlreshandler.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xti.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xti2.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xtictor.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xtihandler.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xtiprop.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xtistrm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xtitypes.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\xtixml.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\zipstrm.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="wxWidgets\include\wx\zstream.h">
+      <Filter>wxWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CocoSpy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SpyHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\wxSpyDlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wxWidgets\include\wx\arrimpl.cpp">
+      <Filter>wxWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="wxWidgets\include\wx\listimpl.cpp">
+      <Filter>wxWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CocoSpy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SpyHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\wxSpyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="wxWidgets\include\wx\msw\amd64.manifest">
+      <Filter>wxWidgets</Filter>
+    </Manifest>
+  </ItemGroup>
+</Project>

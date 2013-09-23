@@ -101,12 +101,15 @@ CCNode::CCNode(void)
     CCScriptEngineProtocol* pEngine = CCScriptEngineManager::sharedManager()->getScriptEngine();
     m_eScriptType = pEngine != NULL ? pEngine->getScriptType() : kScriptTypeNone;
     m_pComponentContainer = new CCComponentContainer(this);
+	m_destroyProc =NULL;
 }
 
 CCNode::~CCNode(void)
 {
     CCLOGINFO( "cocos2d: deallocing" );
-    
+	if(m_destroyProc)
+		m_destroyProc(this);
+
     unregisterScriptHandler();
     if (m_nUpdateScriptHandler)
     {
@@ -369,6 +372,53 @@ void CCNode::setGrid(CCGridBase* pGrid)
 bool CCNode::isVisible()
 {
     return m_bVisible;
+}
+
+void CCNode::setProperties(Json::Value& jObject)
+{
+	SET_PROPERTY_DOUBLE(jObject,m_obPosition.x,"CCNode.Position.x")
+	SET_PROPERTY_DOUBLE(jObject,m_obPosition.y,"CCNode.Position.y")
+	SET_PROPERTY_DOUBLE(jObject,m_obContentSize.width,"CCNode.Position.width")
+	SET_PROPERTY_DOUBLE(jObject,m_obContentSize.height,"CCNode.Position.height")
+	SET_PROPERTY_DOUBLE(jObject,m_fRotationX,"CCNode.Rotation.x")
+	SET_PROPERTY_DOUBLE(jObject,m_fRotationY,"CCNode.Rotation.y")
+	SET_PROPERTY_DOUBLE(jObject,m_fScaleX,"CCNode.Scale.x")
+	SET_PROPERTY_DOUBLE(jObject,m_fScaleY,"CCNode.Scale.y")
+	SET_PROPERTY_DOUBLE(jObject,m_fSkewX,"CCNode.Skew.x")
+	SET_PROPERTY_DOUBLE(jObject,m_fSkewY,"CCNode.Skew.y")
+	SET_PROPERTY_DOUBLE(jObject,m_obAnchorPoint.x,"CCNode.AnchorPoint.x")
+	SET_PROPERTY_DOUBLE(jObject,m_obAnchorPoint.y,"CCNode.AnchorPoint.y")
+
+	SET_PROPERTY_INT(jObject,m_nTag,"CCNode.Tag")
+	SET_PROPERTY_INT(jObject,m_nZOrder,"CCNode.ZOrder")
+
+	SET_PROPERTY_BOOL(jObject,m_bVisible,"CCNode.Visible")
+
+	m_bTransformDirty = m_bInverseDirty = true;
+}
+
+void CCNode::getProperties(Json::Value& jObject)
+{
+	jObject["CCNode.Position.x"]=m_obPosition.x;
+	jObject["CCNode.Position.y"]=m_obPosition.y;
+	jObject["CCNode.Position.width"]=m_obContentSize.width;
+	jObject["CCNode.Position.height"]=m_obContentSize.height;
+	jObject["CCNode.Rotation.x"]=m_fRotationX;
+	jObject["CCNode.Rotation.y"]=m_fRotationY;
+	jObject["CCNode.Scale.x"]=m_fScaleX;
+	jObject["CCNode.Scale.y"]=m_fScaleY;
+	jObject["CCNode.Skew.x"]=m_fSkewX;
+	jObject["CCNode.Skew.y"]=m_fSkewY;
+	jObject["CCNode.AnchorPoint.x"]=m_obAnchorPoint.x;
+	jObject["CCNode.AnchorPoint.y"]=m_obAnchorPoint.y;
+	jObject["CCNode.Tag"]=m_nTag;
+	jObject["CCNode.ZOrder"]=m_nZOrder;
+	jObject["CCNode.Visible"]=m_bVisible;
+}
+
+void CCNode::setDestroyCallBack(NODE_DESTROY_CALLBACK destroyProc)
+{
+	m_destroyProc = destroyProc;
 }
 
 /// isVisible setter

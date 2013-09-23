@@ -6,6 +6,15 @@
 #include "cocos-ext.h"
 #include "CCArmature/utils/CCArmatureDataManager.h"
 
+#define USE_COCOSPY
+
+#ifdef USE_COCOSPY
+#ifdef DEBUG
+#include "../CocoSpy/Include/CocoSpy.h"
+#pragma comment(lib,"CocoSpy.lib")	
+#endif
+#endif
+
 USING_NS_CC;
 using namespace CocosDenshion;
 
@@ -21,6 +30,13 @@ AppDelegate::~AppDelegate()
 
 bool AppDelegate::applicationDidFinishLaunching()
 {
+
+#ifdef USE_COCOSPY
+#ifdef DEBUG
+	CCEGLView::sharedOpenGLView()->setWndProc(CustomWndProc);
+#endif
+#endif
+
 	// As an example, load config file
 	// XXX: This should be loaded before the Director is initialized,
 	// XXX: but at this point, the director is already initialized

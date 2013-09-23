@@ -57,7 +57,11 @@ NS_CC_BEGIN
 class CC_DLL CCLabelTTF : public CCSprite, public CCLabelProtocol
 {
 public:
-    CCLabelTTF();
+    
+	virtual void setProperties(Json::Value& jObject);
+	virtual void getProperties(Json::Value& jObject);
+
+	CCLabelTTF();
     virtual ~CCLabelTTF();
     const char* description();    
     

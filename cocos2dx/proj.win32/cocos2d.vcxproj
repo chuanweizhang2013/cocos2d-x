@@ -170,6 +170,9 @@ xcopy /Y /Q "$(ProjectDir)..\platform\third_party\win32\libraries\*.*" "$(OutDir
     <ClCompile Include="..\actions\CCActionProgressTimer.cpp" />
     <ClCompile Include="..\actions\CCActionTiledGrid.cpp" />
     <ClCompile Include="..\actions\CCActionTween.cpp" />
+    <ClCompile Include="..\jsoncpp\src\json_reader.cpp" />
+    <ClCompile Include="..\jsoncpp\src\json_value.cpp" />
+    <ClCompile Include="..\jsoncpp\src\json_writer.cpp" />
     <ClCompile Include="..\label_nodes\CCLabelAtlas.cpp" />
     <ClCompile Include="..\label_nodes\CCLabelBMFont.cpp" />
     <ClCompile Include="..\label_nodes\CCLabelTTF.cpp" />
@@ -309,6 +312,15 @@ xcopy /Y /Q "$(ProjectDir)..\platform\third_party\win32\libraries\*.*" "$(OutDir
     <ClInclude Include="..\include\CCProtocols.h" />
     <ClInclude Include="..\include\ccTypes.h" />
     <ClInclude Include="..\include\cocos2d.h" />
+    <ClInclude Include="..\jsoncpp\include\autolink.h" />
+    <ClInclude Include="..\jsoncpp\include\config.h" />
+    <ClInclude Include="..\jsoncpp\include\features.h" />
+    <ClInclude Include="..\jsoncpp\include\forwards.h" />
+    <ClInclude Include="..\jsoncpp\include\json.h" />
+    <ClInclude Include="..\jsoncpp\include\reader.h" />
+    <ClInclude Include="..\jsoncpp\include\value.h" />
+    <ClInclude Include="..\jsoncpp\include\writer.h" />
+    <ClInclude Include="..\jsoncpp\src\json_batchallocator.h" />
     <ClInclude Include="..\label_nodes\CCLabelAtlas.h" />
     <ClInclude Include="..\label_nodes\CCLabelBMFont.h" />
     <ClInclude Include="..\label_nodes\CCLabelTTF.h" />
@@ -430,6 +442,11 @@ xcopy /Y /Q "$(ProjectDir)..\platform\third_party\win32\libraries\*.*" "$(OutDir
     <ClInclude Include="..\CCConfiguration.h" />
     <ClInclude Include="..\CCDirector.h" />
     <ClInclude Include="..\CCScheduler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\jsoncpp\src\json_internalarray.inl" />
+    <None Include="..\jsoncpp\src\json_internalmap.inl" />
+    <None Include="..\jsoncpp\src\json_valueiterator.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

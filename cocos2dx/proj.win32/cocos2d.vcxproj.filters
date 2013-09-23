@@ -103,6 +103,15 @@
     <Filter Include="support\component">
       <UniqueIdentifier>{485f1c18-d463-48d0-bcaa-a10e32aa3332}</UniqueIdentifier>
     </Filter>
+    <Filter Include="jsoncpp">
+      <UniqueIdentifier>{ecd9b653-fdd2-40e9-acb1-532a01f5ac36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp\include">
+      <UniqueIdentifier>{ebff0f35-3e13-405f-81a2-60ce1dad4c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp\src">
+      <UniqueIdentifier>{df2a10ef-07e1-4301-bf56-0ba102de9af8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\base_nodes\CCAtlasNode.cpp">
@@ -473,6 +482,15 @@
     </ClCompile>
     <ClCompile Include="..\support\component\CCComponentContainer.cpp">
       <Filter>support\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jsoncpp\src\json_reader.cpp">
+      <Filter>jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jsoncpp\src\json_value.cpp">
+      <Filter>jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jsoncpp\src\json_writer.cpp">
+      <Filter>jsoncpp\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -952,5 +970,43 @@
     <ClInclude Include="..\support\component\CCComponentContainer.h">
       <Filter>support\component</Filter>
     </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\config.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\features.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\forwards.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\reader.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\value.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\writer.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\autolink.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\src\json_batchallocator.h">
+      <Filter>jsoncpp\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\jsoncpp\src\json_internalarray.inl">
+      <Filter>jsoncpp\src</Filter>
+    </None>
+    <None Include="..\jsoncpp\src\json_internalmap.inl">
+      <Filter>jsoncpp\src</Filter>
+    </None>
+    <None Include="..\jsoncpp\src\json_valueiterator.inl">
+      <Filter>jsoncpp\src</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -37,6 +37,7 @@
 #include "kazmath/kazmath.h"
 #include "script_support/CCScriptSupport.h"
 #include "CCProtocols.h"
+#include "jsoncpp/include/json.h"
 
 NS_CC_BEGIN
 
@@ -57,6 +58,22 @@ class CCComponentContainer;
  * @addtogroup base_nodes
  * @{
  */
+
+#define SET_PROPERTY_DOUBLE(jsonObject,varName,proName)\
+	if(!jsonObject[proName].isNull())\
+	varName=jsonObject[proName].asDouble();
+
+#define SET_PROPERTY_INT(jsonObject,varName,proName)\
+	if(!jsonObject[proName].isNull())\
+	varName=jsonObject[proName].asInt();
+
+#define SET_PROPERTY_BOOL(jsonObject,varName,proName)\
+	if(!jsonObject[proName].isNull())\
+	varName=jsonObject[proName].asBool();
+
+#define SET_PROPERTY_STRING(jsonObject,varName,proName)\
+	if(!jsonObject[proName].isNull())\
+	varName=jsonObject[proName].asString().c_str();
 
 enum {
     kCCNodeTagInvalid = -1,
@@ -125,9 +142,15 @@ enum {
  - Each node has a camera. By default it points to the center of the CCNode.
  */
 
+
+typedef  void (*NODE_DESTROY_CALLBACK)(CCNode* destroyNode);
+
 class CC_DLL CCNode : public CCObject
 {
 public:
+	virtual void setProperties(Json::Value& jObject);
+	virtual void getProperties(Json::Value& jObject);
+	virtual void setDestroyCallBack(NODE_DESTROY_CALLBACK destroyProc);
     /// @{
     /// @name Constructor, Distructor and Initializers
     
@@ -1404,6 +1427,7 @@ protected:
     int m_nUpdateScriptHandler;         ///< script handler for update() callback per frame, which is invoked from lua & javascript.
     ccScriptType m_eScriptType;         ///< type of script binding, lua or javascript
     
+	NODE_DESTROY_CALLBACK m_destroyProc;
     CCComponentContainer *m_pComponentContainer;        ///< Dictionary of components
 
 };

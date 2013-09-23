@@ -547,6 +547,20 @@ void CCEGLView::setAccelerometerKeyHook( LPFN_ACCELEROMETER_KEYHOOK lpfnAccelero
     m_lpfnAccelerometerKeyHook=lpfnAccelerometerKeyHook;
 }
 
+CCPoint CCEGLView::screenPt2TouchPt(CCPoint srceenPt)
+{
+	CCPoint pt(srceenPt.x,srceenPt.y);
+	pt.x /= m_fFrameZoomFactor;
+	pt.y /= m_fFrameZoomFactor;
+	CCPoint tmp = CCPoint(pt.x,m_obScreenSize.height - pt.y);
+	if (m_obViewPortRect.equals(CCRectZero) || m_obViewPortRect.containsPoint(tmp))
+	{
+		pt.x = (pt.x - m_obViewPortRect.origin.x )/m_fScaleX;
+		pt.y = (pt.y - m_obViewPortRect.origin.y )/m_fScaleY;
+	}
+	return pt;
+}
+
 
 bool CCEGLView::isOpenGLReady()
 {

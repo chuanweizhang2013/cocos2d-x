@@ -486,7 +486,8 @@ public:
     void setFlipY(bool bFlipY);
     
     /// @} End of Sprite properties getter/setters
-    
+
+   static CCSprite *m_DrawBoundingBoxSprite; 
 protected:
     void updateColor(void);
     virtual void setTextureCoords(CCRect rect);

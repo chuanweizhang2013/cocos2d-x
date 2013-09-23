@@ -56,6 +56,30 @@ CCLabelTTF::~CCLabelTTF()
     CC_SAFE_DELETE(m_pFontName);
 }
 
+void CCLabelTTF::setProperties(Json::Value& jObject)
+{
+	CCSprite::setProperties(jObject);
+	SET_PROPERTY_DOUBLE(jObject,m_fFontSize,"CCLabelTTF.FontSize")
+	SET_PROPERTY_STRING(jObject,m_string,"CCLabelTTF.LabelString")
+// 	if(!jObject["CCLabelTTF.LabelString"].isNull())
+// 		setString(jObject["CCLabelTTF.LabelString"].asString().c_str());
+// 	SET_PROPERTY_INT(jObject,m_vAlignment,"CCCLabelTTF.vAlignment")
+// 	SET_PROPERTY_INT(jObject,m_hAlignment,"CCCLabelTTF.hAlignment")
+	if(!jObject["CCLabelTTF.FontName"].isNull())
+		setFontName(jObject["CCLabelTTF.FontName"].asString().c_str());
+	this->updateTexture();
+}
+
+void CCLabelTTF::getProperties(Json::Value& jObject)
+{
+	CCSprite::getProperties(jObject);
+	jObject["CCLabelTTF.FontSize"]=m_fFontSize;
+	jObject["CCLabelTTF.FontName"]=m_pFontName->c_str();
+	jObject["CCLabelTTF.LabelString"]=m_string.c_str();
+	jObject["CCLabelTTF.vAlignment"]=m_vAlignment;
+	jObject["CCLabelTTF.hAlignment"]=m_hAlignment;
+}
+
 CCLabelTTF * CCLabelTTF::create()
 {
     CCLabelTTF * pRet = new CCLabelTTF();

@@ -57,6 +57,7 @@ NS_CC_BEGIN
 #define RENDER_IN_SUBPIXEL(__ARGS__) (ceil(__ARGS__))
 #endif
 
+CCSprite* CCSprite::m_DrawBoundingBoxSprite=NULL;
 CCSprite* CCSprite::createWithTexture(CCTexture2D *pTexture)
 {
     CCSprite *pobSprite = new CCSprite();
@@ -590,6 +591,17 @@ void CCSprite::draw(void)
 
     CHECK_GL_ERROR_DEBUG();
 
+if (m_DrawBoundingBoxSprite == this)
+{
+	// draw bounding box
+	CCPoint vertices[4]={
+		ccp(m_sQuad.tl.vertices.x,m_sQuad.tl.vertices.y),
+		ccp(m_sQuad.bl.vertices.x,m_sQuad.bl.vertices.y),
+		ccp(m_sQuad.br.vertices.x,m_sQuad.br.vertices.y),
+		ccp(m_sQuad.tr.vertices.x,m_sQuad.tr.vertices.y),
+	};
+	ccDrawPoly(vertices, 4, true);
+}
 
 #if CC_SPRITE_DEBUG_DRAW == 1
     // draw bounding box

@@ -74,7 +74,7 @@ public:
 
     virtual void setViewPortInPoints(float x , float y , float w , float h);
     virtual void setScissorInPoints(float x , float y , float w , float h);
-    
+    CCPoint screenPt2TouchPt(CCPoint srceenPt);
     // static function
     /**
     @brief    get the shared main open gl window
