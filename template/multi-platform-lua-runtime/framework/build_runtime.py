@@ -152,7 +152,7 @@ class BuildRuntime:
             print ("Can't find Mac target")
             return False
 
-        macFolder = os.path.join(self.projectPath, "..", "..", "runtime",self.projectName, "mac")
+        macFolder = os.path.join(self.projectPath, "..", "..", "runtime", self.projectName, "mac")
         if os.path.isdir(macFolder):
             shutil.rmtree(macFolder)
 
@@ -252,10 +252,10 @@ class BuildRuntime:
             "xcodebuild",
             "-project",
             projectPath,
-            "-target",
-            targetName,
             "-configuration",
             "Debug",
+            "-target",
+            targetName,
             "-sdk",
             "iphonesimulator",
             "CONFIGURATION_BUILD_DIR=%s" % (iosFolder)
