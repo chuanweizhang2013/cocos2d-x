@@ -35,6 +35,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
 
+	director->getConsole()->listenOnTCP(5678);
 
 	extern std::vector<std::string> getSearchPath();
 	std::vector<std::string> searchPathArray;

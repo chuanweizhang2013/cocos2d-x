@@ -5,6 +5,14 @@ set -e
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 COCOS2DX_ROOT="$DIR"/../..
 
+if [ -z "$NDK_ROOT" ]; then
+    export NDK_ROOT=$HOME/bin/android-ndk
+fi
+
+if [ -z "$PYTHON_BIN" ]; then
+    export PYTHON_BIN=/usr/bin/python
+fi
+
 if [ "$GEN_JSB"x = "YES"x ]; then
     # Re-generation of the javascript bindings can perform push of the new
     # version back to github.  We don't do this for pull requests, or if
@@ -26,7 +34,7 @@ if [ "$GEN_JSB"x = "YES"x ]; then
         echo "GH_USER not set"
         exit 0
     fi
-    export NDK_ROOT=$HOME/bin/android-ndk
+
     cd $COCOS2DX_ROOT/tools/travis-scripts
     ./generate-jsbindings.sh
 elif [ "$PLATFORM"x = "android"x ]; then
@@ -71,6 +79,7 @@ elif [ "$PLATFORM"x = "linux"x ]; then
     cd $COCOS2DX_ROOT/tools/travis-scripts
     ./generate-jsbindings.sh
 
+    echo "Building cocos2d-x"
     cd $COCOS2DX_ROOT/build
     mkdir -p linux-build
     cd linux-build
@@ -81,6 +90,7 @@ elif [ "$PLATFORM"x = "linux"x ]; then
     cd $COCOS2DX_ROOT/tools/project-creator
     ./create_project.py -n MyGameCpp -k com.MyCompany.AwesomeGameCpp -l cpp -p $HOME
     ./create_project.py -n MyGameLua -k com.MyCompany.AwesomeGameLua -l lua -p $HOME
+    ./create_project.py -n MyGameJs -k com.MyCompany.AwesomeGameJs -l javascript -p $HOME
     cd $HOME/MyGameCpp
     mkdir build
     cd build
@@ -88,6 +98,12 @@ elif [ "$PLATFORM"x = "linux"x ]; then
     make -j10
 
     cd $HOME/MyGameLua
+    mkdir build
+    cd build
+    cmake ..
+    make -j10
+
+    cd $HOME/MyGameJs
     mkdir build
     cd build
     cmake ..
